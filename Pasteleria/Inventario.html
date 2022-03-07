@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Tentacion - Inventario</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(84, 84, 84);
+        
+       
+        }
+
+        nav {
+            float: left;
+            width: 15%;
+            height: 300px;
+            
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 85%;
+            background-color: #ffffff94;
+            height: 300px;
+            text-align: center;
+            color: rgb(84, 84, 84);
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+            footer {
+                bottom: auto;
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <body>
+       
+        <header>
+            <a href="./panel.html">          
+            <img src="./assets/Pasteleria Dt.PNG" alt="Dulce tentacion" width="200px" height="200px"> 
+            </a>
+        
+        </header>
+    
+        <section>
+            <nav>
+                <dl>
+                    <dt><a href="./panel.html">Panel</a></dt>
+                    <dl><a href="./Inventario.html">Inventario</a></dl>
+                    <dl><a href="./pedidos pendientes.html">Pedidos pendientes</a></dl>
+                    <dl><a href="./contabilidad.html">Contabilidad</a></dl>
+                </dl>
+            </nav>
+        
+            <article>
+                <center>
+                <table>
+                    <tr>
+                        <th>Sabores</th>
+                        <th>almacen</th>
+                        <th>Cobertas</th>
+                        <th>almacen</th>
+                        <th>Decoraciones</th>
+                        <th>almacen</th>
+                    </tr>
+                    <tr>
+                        <td>Chocolate pasion</td>
+                        <td>xx</td>
+                        <td>Cobertura de leche</td>
+                        <td>xx</td>
+                        <td>Fresas</td>
+                        <td>xx</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Fresa salvaje</td>
+                        <td>xx</td>
+                        <td>Chantilly del cielo</td>
+                        <td>xx</td>
+                        <td>Duraznos</td>
+                        <td>xx</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Vainilla tentacion</td>
+                        <td>xx</td>
+                        <td>Ultima tentacion</td>
+                        <td>xx</td>
+                        <td>Chocolates</td>
+                        <td>xx</td>
+                        
+                    </tr>
+
+                </table>
+            </center>
+                 
+            <br><br>
+            
+            <p>Actualizar Inventario</p>
+            <center>
+                <table>
+                    <tr>
+                        <th>Sabores</th>
+                        <th>almacen</th>
+                        <th>Cobuertas</th>
+                        <th>almacen</th>
+                        <th>Decoraciones</th>
+                        <th>almacen</th>
+                    </tr>
+                    <tr>
+                        <td>Chocolate pasion</td>
+                        <td><input type="number"></td>
+                        <td>Cobertura de leche</td>
+                        <td><input type="number"></td>
+                        <td>Fresas</td>
+                        <td><input type="number"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Fresa salvaje</td>
+                        <td><input type="number"></td>
+                        <td>Chantilly del cielo</td>
+                        <td><input type="number"></td>
+                        <td>Duraznos</td>
+                        <td><input type="number"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Vainilla tentacion</td>
+                        <td><input type="number"></td>
+                        <td>Ultima tentacion</td>
+                        <td><input type="number"></td>
+                        <td>Chocolates</td>
+                        <td><input type="number"></td>
+                        
+                    </tr>
+
+                </table>
+            </center>
+            <br><br>
+                <input type="button" value="Actualizar">
+
+            </article>
+        </section>
+        <br><br><br><br><br><hr>
+            <footer>
+                <p><font size="2">Av Oceano Pacifico <br> Atizapan de Zaragoza <br> Estado de Mexico <br> Tel 58220233</font></p>
+            </footer>
+        
+        </body>
+        
+        </html>

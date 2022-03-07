@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Tentacion - Pedidos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(84, 84, 84);
+        
+       
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 100%;
+            background-color: #ffffff94;
+            height: auto;
+            text-align: center;
+            color: rgb(84, 84, 84);
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+            footer {
+                bottom: auto;
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <body>
+       
+        <header>
+            <a href="./MAinPage.html">          
+                <img src="./assets/Pasteleria Dt.PNG" alt="Dulce tentacion" width="200px" height="200px"> 
+            </a>
+        </header>
+    
+        <section>
+        
+            <article>
+                <p>Cuentanos un poco de como podemos complacerte, puedes decirnos...</p>
+                <form action="pedido.js">
+                    <label for="cliente">...quien eres?</label><br>
+                    <input type="text" id="datosdelcliente" name="Nombre"><br>
+            
+                    <label for="correo">...tu email?</label><br>
+                    <input type="email" id="datosdelcliente" name="email"><br>
+                    <label for="telefono">...tu telefono?</label><br>
+                    <input type="tel" id="datosdelcliente" name="tel"><br><br>
+
+                    <p>...donde te veremos?</p>
+                    <input type="radio" id="Domicilio particular" name="direccion" value="Domicilio particular">
+                    <label for="Domicilio particular">Domicilio particular</label> <label for="cliente"></label>
+                    <input type="text" id="Domicilio particular" name="direccion"><br>
+                    <input type="radio" id="Sucursal" name="direccion" value="Sucursal">
+                    <label for="Sucursal">Sucursal</label>
+
+                    <p>...cuando?</p>
+                    <label for="fechadeentrega"></label>
+                    <input type="date" name="fechadeentrega" id="fechadeentrega">
+                        
+                    <p>...cual va ser el sabor de tu pan?</p>
+                    <input type="radio" id="Chocolate pasion" name="Pastel" value="Chocolate pasion">
+                    <label for="Chocolate Pasion">Chocolate Pasion</label><br>
+                    <input type="radio" id="Fresa salvaje" name="Pastel" value="Fresa salvaje">
+                    <label for="Fresa salvaje">Fresa salvaje</label><br>
+                    <input type="radio" id="Vainilla tentacion" name="Pastel" value="Vainilla tentacion">
+                    <label for="Vainilla tentacion">Vainilla tentacion</label>
+
+
+                    <p>Ahora lo divertido, como vamos a cubrir y decorar tu pastel, <br>
+                        recuerda que puedes hacer cualquier combinacion</p>
+                            <p>Coberturas</p>
+                        <input type="checkbox" id="cobertura1" name="cobertura1" value="Cobertura de leche">
+                        <label for="cobertura1">Cobertura de leche</label><br>
+                        <input type="checkbox" id="cobertura2" name="cobertura2" value="Chantilly del cielo">
+                        <label for="cobertura2">Chantilly del cielo</label><br>
+                        <input type="checkbox" id="cobertura3" name="cobertura3" value="Ultima tentacion">
+                        <label for="cobertura3">Ultima tentacion</label><br><br>
+                            <p>Decoraciones</p>
+                        <input type="checkbox" id="decoracion1" name="decoracion1" value="Fresas">
+                        <label for="decoracion1">Fresas</label><br>
+                        <input type="checkbox" id="decoracion2" name="decoracion2" value="Duraznos">
+                        <label for="decoracion2">Duraznos</label><br>
+                        <input type="checkbox" id="decoracion3" name="decoracion3" value="Chocolates">
+                        <label for="decoracion3">Chocolates</label><br><br>   
+
+
+
+                    <input type="reset"> 
+                    <input type="submit">
+                </form>
+
+
+            </article>
+        </section>
+    <br><br><br><br><br><hr>
+        <footer>
+            <p><font size="2">Av Oceano Pacifico <br> Atizapan de Zaragoza <br> Estado de Mexico <br> Tel 58220233</font></p>
+        </footer>
+    
+    </body>
+    
+    </html>
